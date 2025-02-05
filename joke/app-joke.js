@@ -6,6 +6,6 @@ document.getElementById("getJoke").addEventListener("click",async function() {
         const data = await response.json();
         jokeElement.textContent = data.value;
     }catch(error){
-        jokeElement.textContent ="failed to fetch joke try again!";
+        jokeElement.textContent ="failed to fetch joke try again!" ;
     }
 })
