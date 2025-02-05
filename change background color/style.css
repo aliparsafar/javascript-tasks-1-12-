@@ -1,0 +1,35 @@
+body {
+    font-family: Tahoma, sans-serif;
+    padding: 20px;
+    background-color: darkseagreen;
+    transition: background-color 0.5s ease; /* ایجاد انیمیشن نرم برای تغییر رنگ */
+}
+
+.container {
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    background-color: seagreen;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #ffff;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
