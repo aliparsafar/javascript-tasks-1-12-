@@ -1,0 +1,31 @@
+body{
+    font-family:sans-serif;
+    background-color: rosybrown;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 100vh;
+}
+.container h1{
+    color: sienna;
+    font-size: 50px;
+}
+
+#timer {
+    font-size: 50px;
+    margin-top: -20px;
+    color: bisque;
+}
+#startButton{
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 30px;
+    background-color: saddlebrown;
+    color: aliceblue;
+    font-size: 15px;
+}
